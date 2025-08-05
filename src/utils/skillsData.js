@@ -14,7 +14,7 @@ import cPanel from "../assets/hosting/cpanel.svg";
 import Plesk from "../assets/hosting/plesk.svg";
 import CWP from "../assets/hosting/cwp.png";
 import Webuzo from "../assets/hosting/webuzo.png";
-import VirtualMin from "../assets/hosting/virtualmin.svg";
+import VirtualMin from "../assets/hosting/Virtualmin.svg";
 
 import canvaLogo from "../assets/devops/canva.svg";
 import githubLogo from "../assets/devops/github.svg";
