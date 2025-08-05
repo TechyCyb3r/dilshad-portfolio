@@ -10,28 +10,29 @@ import Alma from "../assets/os/almalinux.svg";
 import Rocky from "../assets/os/rockylinux.svg";
 import Windows from "../assets/os/windows.svg";
 
-import cPanel from "../assets/hosting/cPanel.svg";
-import Plesk from "../assets/hosting/Plesk.svg";
-import CWP from "../assets/hosting/CWP.png";
-import Webuzo from "../assets/hosting/Webuzo.png";
-import VirtualMin from "../assets/hosting/Virtualmin.svg";
+import cPanel from "../assets/hosting/cpanel.svg";
+import Plesk from "../assets/hosting/plesk.svg";
+import CWP from "../assets/hosting/cwp.png";
+import Webuzo from "../assets/hosting/webuzo.png";
+import VirtualMin from "../assets/hosting/virtualmin.svg";
 
-import canvaLogo from "../assets/Devops/canva.svg";
-import githubLogo from "../assets/Devops/github.svg";
-import Docker from "../assets/Devops/docker.svg";
-import Bash from "../assets/Devops/bash.svg";
-import Cron from "../assets/Devops/cron.png";
+import canvaLogo from "../assets/devops/canva.svg";
+import githubLogo from "../assets/devops/github.svg";
+import Docker from "../assets/devops/docker.svg";
+import Bash from "../assets/devops/bash.svg";
+import Cron from "../assets/devops/cron.png";
 
-import Nginx from "../assets/web/Nginx.svg";
-import MySql from "../assets/web/MySQL.svg";
-import Apache from "../assets/web/Apache.svg";
-import DNS from "../assets/web/DNS.svg";
+import Nginx from "../assets/web/nginx.svg";
+import MySql from "../assets/web/mysql.svg";
+import Apache from "../assets/web/apache.svg";
+import DNS from "../assets/web/dns.svg";
 import Php from "../assets/web/php.svg";
 
 import SMail from "../assets/mail/smartermail.png";
 import Gwspace from "../assets/mail/gworkspace.svg";
-import Office from "../assets/mail/msoffice.svg"
-import Zimbra from "../assets/mail/zimbra.png"
+import Office from "../assets/mail/msoffice.svg";
+import Zimbra from "../assets/mail/zimbra.png";
+
 const skillsData = [
   {
     title: "Operating System",
