@@ -16,12 +16,12 @@ import CWP from "../assets/hosting/cwp.png";
 import Webuzo from "../assets/hosting/webuzo.png";
 import VirtualMin from "../assets/hosting/Virtualmin.svg";
 
-import CanvaLogo from "../assets/devops/canvas.svg";
+import CanvaLogo from "../assets/devop/canvas.svg";
 
-import githubLogo from "../assets/devops/github.svg";
-import Docker from "../assets/devops/docker.svg";
-import Bash from "../assets/devops/bash.svg";
-import Cron from "../assets/devops/cron.png";
+import githubLogo from "../assets/devop/github.svg";
+import Docker from "../assets/devop/docker.svg";
+import Bash from "../assets/devop/bash.svg";
+import Cron from "../assets/devop/cron.png";
 
 import Nginx from "../assets/web/nginx.svg";
 import MySql from "../assets/web/mysql.svg";
@@ -68,7 +68,7 @@ const skillsData = [
     ],
   },
   {
-    title: "DevOps & Tools",
+    title: "devop & Tools",
     icon: Tools,
     skills: [
       { skill: "Bash Scripting", icon: Bash, color: "#4EAA25" },
