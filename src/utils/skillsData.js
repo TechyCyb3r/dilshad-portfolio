@@ -26,7 +26,7 @@ import Cron from "../assets/devops/cron.png";
 import Nginx from "../assets/web/nginx.svg";
 import MySql from "../assets/web/mysql.svg";
 import Apache from "../assets/web/apache.svg";
-import DNS from "../assets/web/dns.svg";
+import Dns from "../assets/web/dns.svg";
 import Php from "../assets/web/php.svg";
 
 import SMail from "../assets/mail/smartermail.png";
@@ -86,7 +86,7 @@ const skillsData = [
       { skill: "Nginx", icon: Nginx, color: "#009639" },
       { skill: "MySQL", icon: MySql, color: "#00758F" },
       { skill: "PHP", icon: Php, color: "#8892BE" },
-      { skill: "DNS", icon: DNS, color: "#4B0082" },
+      { skill: "DNS", icon: Dns, color: "#4B0082" },
     ],
   },
 ];
