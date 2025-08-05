@@ -16,7 +16,7 @@ import CWP from "../assets/hosting/cwp.png";
 import Webuzo from "../assets/hosting/webuzo.png";
 import VirtualMin from "../assets/hosting/Virtualmin.svg";
 
-import CanvaLogo from "../assets/canvas.svg";
+import CanvaLogo from "../assets/devops/canvas.svg";
 
 import githubLogo from "../assets/devops/github.svg";
 import Docker from "../assets/devops/docker.svg";
