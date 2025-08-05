@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './css/Hero.module.css'
-import HeroImg from '../assets/Hero/hero.jpg'
+import HeroImg from '../assets/Hero/Me.jpg'
 import { motion as Motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 
@@ -21,23 +21,64 @@ const Hero = () => {
       </Motion.div>
       {/* Right Side: Text */}
       <div className={Styles.heroTextContainer}>
-        <p className={Styles.intro}>Hello! I Am <span>
+        <Motion.p
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{
+            type: 'spring',
+            stiffness: 100,
+            damping: 20,
+            delay: 0.1,
+          }} 
+        className={Styles.intro}>Hello! I Am <span>
           <TypeAnimation
-            sequence={['Bla Bla Bla', 2000]}
+            sequence={['Dilshad Rangrej', 10000]}
             speed={2}
             cursor={false}
           />
-        </span></p>
-        <h1 className={Styles.title}>A Designer who<br />Judges a book<br />by its <span className={Styles.coverHighlight}>cover</span>...</h1>
-        <p className={Styles.subtitle}>Because if the cover does not impress you what else can?</p>
-        <div className="descriptionWrapper">
-          <h2 className={Styles.role}>I'm a Software Engineer.</h2>
-          <p className={Styles.company}>Currently, I'm a Software Engineer at <span>Facebook</span></p>
+        </span></Motion.p>
+        <Motion.h1
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{
+            type: 'spring',
+            stiffness: 100,
+            damping: 20,
+            delay: 0.2,
+          }} 
+        className={Styles.title}>
+          A SysAdmin who<br />
+          Reads logs like a <span className={Styles.coverHighlight}>detective</span>...
+        </Motion.h1>
+
+        <Motion.p
+          initial={{ opacity: 0, scale: 0.2 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: 'spring',
+            stiffness: 100,
+            damping: 20,
+            delay: 0.3,
+          }} 
+        className={Styles.subtitle}>Because if the uptime isn't impressive, what else is?</Motion.p>
+
+        <Motion.div 
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring',
+            stiffness: 100,
+            damping: 20,
+            delay: 0.3,
+          }}
+        className="descriptionWrapper">
+          <h2 className={Styles.role}>I'm a Linux Server Administrator.</h2>
+          <p className={Styles.company}>Currently, I'm working as a Linux Server Administrator at <span>Infinitivehost Technologies</span></p>
           <p className={Styles.description}>
-            A self-taught UI/UX designer, functioning in the industry for 3+ years now.
-            I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.
+            A self-driven Linux enthusiast with over 2 years of hands-on experience in server management, shell scripting, and system security.
+            I specialize in deploying, securing, and optimizing Linux environments to ensure high availability and performance for mission-critical systems.
           </p>
-        </div>
+        </Motion.div>
       </div>
     </section>
   )

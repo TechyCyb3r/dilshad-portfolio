@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen relative'>
+      <div className='w-full h-full relative'>
         <Background />
         <Header />
         <div className='pt-14 md:pt-16'>

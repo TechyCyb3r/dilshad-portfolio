@@ -9,6 +9,9 @@ export default {
         ghost: '#F8F8FF',
         rose: '#FFE4E1',
         thistle: '#D8BFD8',
+      },
+      fontFamily: {
+        lavishly: ['"Lavishly Yours"', 'cursive'], // 👈 Add this line
       }
     },
   },

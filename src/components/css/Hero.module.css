@@ -29,7 +29,7 @@
 .heroImage:hover {
     transform: scale(1.1);
 }
-s
+
 .intro {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
@@ -77,4 +77,34 @@ s
     font-size: 1rem;
     line-height: 1.6;
     color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .heroContainer {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .heroImageContainer{
+        padding: 4rem;
+    }
+
+    .heroImage {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .role {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        margin-top: -1rem;
+        font-size: 0.9rem;
+    }
 }

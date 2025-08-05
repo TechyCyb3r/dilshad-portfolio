@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Lavishly+Yours&family=MonteCarlo&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .lavishly-yours-regular {
+        font-family: "Lavishly Yours", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+

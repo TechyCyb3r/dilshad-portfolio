@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react'
 import Styles from './css/Header.module.css'
 import { motion as Motion, AnimatePresence } from 'framer-motion'
 import { FiX, FiMenu } from 'react-icons/fi'
+import { TypeAnimation } from 'react-type-animation'
 
 const Header = () => {
   const Pages = ['Home', 'Skills', 'Experience', 'Contact'];
@@ -31,7 +32,7 @@ const Header = () => {
     <nav className={`${Styles.navbar}`}>
 
       <div className='max-w-[1300px] flex items-center justify-between mx-auto'>
-        <h1 className="text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-bold text-white cursor-default">Logo</h1>
+        <h1 className="text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-bold text-white cursor-default font-lavishly">Dilshad Rangrej</h1>
         {/* Desktop Navigation */}
         <div
           className='hidden lg:flex lg:gap-10'>
