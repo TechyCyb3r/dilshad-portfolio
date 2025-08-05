@@ -5,7 +5,7 @@ import Web from "../assets/ticon/web.svg"
 import Mail from "../assets/ticon/mail.svg"
 
 import Centos from "../assets/os/centos.svg";
-import Ubuntu from "../assets/os/Ubuntu.svg";
+import Ubuntu from "../assets/os/ubuntu.svg";
 import Alma from "../assets/os/AlmaLinux.svg";
 import Rocky from "../assets/os/RockyLinux.svg";
 import Windows from "../assets/os/Windows.svg";
