@@ -6,9 +6,9 @@ import Mail from "../assets/ticon/mail.svg"
 
 import Centos from "../assets/os/centos.svg";
 import Ubuntu from "../assets/os/ubuntu.svg";
-import Alma from "../assets/os/AlmaLinux.svg";
-import Rocky from "../assets/os/RockyLinux.svg";
-import Windows from "../assets/os/Windows.svg";
+import Alma from "../assets/os/almalinux.svg";
+import Rocky from "../assets/os/rockylinux.svg";
+import Windows from "../assets/os/windows.svg";
 
 import cPanel from "../assets/hosting/cPanel.svg";
 import Plesk from "../assets/hosting/Plesk.svg";
