@@ -82,12 +82,12 @@
 @media (max-width: 768px) {
     .heroContainer {
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
         text-align: center;
     }
 
     .heroImageContainer{
-        padding: 4rem;
+        padding: 2rem;
     }
 
     .heroImage {
