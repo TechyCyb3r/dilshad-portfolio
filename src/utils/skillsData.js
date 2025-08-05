@@ -16,7 +16,7 @@ import CWP from "../assets/hosting/cwp.png";
 import Webuzo from "../assets/hosting/webuzo.png";
 import VirtualMin from "../assets/hosting/Virtualmin.svg";
 
-import canvaLogo from "../assets/devops/canva.svg";
+import Canva from "../assets/devops/canva.svg";
 import githubLogo from "../assets/devops/github.svg";
 import Docker from "../assets/devops/docker.svg";
 import Bash from "../assets/devops/bash.svg";
@@ -74,7 +74,7 @@ const skillsData = [
       { skill: "GitHub", icon: githubLogo, color: "#171515" },
       { skill: "Docker (basics)", icon: Docker, color: "#0db7ed" },
       { skill: "cron jobs", icon: Cron, color: "#F9A825" },
-      { skill: "Canva", icon: canvaLogo, color: "#00C4CC" },
+      { skill: "Canva", icon: Canva, color: "#00C4CC" },
     ],
   },
   {
