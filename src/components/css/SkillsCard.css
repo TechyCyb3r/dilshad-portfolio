@@ -16,7 +16,7 @@
 }
 
 .skills-card span{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 .skills-icon {
@@ -63,9 +63,8 @@
 
 @media (max-width: 768px){
     .skills-card span{
-        font-size: 0.9rem;
+        font-size: 0.64rem;
     }
-
 }
 
 @media(max-width: 525px){
