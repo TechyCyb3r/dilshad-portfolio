@@ -1,0 +1,80 @@
+.heroContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    color: #fff;
+    gap: 1rem;
+}
+
+.heroTextContainer {
+    flex: 1;
+}
+
+.heroImageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.heroImage {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+    filter: drop-shadow(0 0 4rem #9f59ff);
+    transition: transform 0.3s ease-in-out;
+}
+
+.heroImage:hover {
+    transform: scale(1.1);
+}
+s
+.intro {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #ccc;
+}
+
+.intro span {
+    color: #9f59ff;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+}
+
+.coverHighlight {
+    color: #9f59ff;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
+
+.role {
+    flex: 1;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: flex-end;
+}
+
+.company {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.company span {
+    color: #007bff;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
