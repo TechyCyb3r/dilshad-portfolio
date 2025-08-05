@@ -1,0 +1,87 @@
+.education-card {
+    background: #130f2a;
+    border-radius: 1rem;
+    border: 2px solid #6751b9;
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(103, 81, 185, 0.1);
+}
+
+.education-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(103, 81, 185, 0.4);
+}
+
+.education-card h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #32275f;
+    text-align: center;
+    color: #eaeaff;
+}
+
+.education-card p {
+    font-size: 1rem;
+    color: #e0dffd;
+    margin: 0.4rem 0;
+}
+
+.education-duration {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background: rgba(103, 81, 185, 0.2);
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    margin: 1rem 0;
+    color: #d8d5fa;
+}
+
+.education-card ul {
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.education-card ul li {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #c6c3e6;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.education-card ul li::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #6751b9;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.35rem;
+}
+
+.education-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+@media (max-width: 525px){
+    .education-card h6{
+        font-size: 1.1rem;
+    }
+
+    .education-duration{
+        margin-left: -5rem;
+    }
+}

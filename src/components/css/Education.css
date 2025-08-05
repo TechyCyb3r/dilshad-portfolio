@@ -1,0 +1,180 @@
+.education-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.education-container h5 {
+    margin-top: -8rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 16rem;
+}
+
+.vertical-timeline-element-content::after {
+    content: '';
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: purple;
+    filter: blur(150px);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* Timeline line */
+.vertical-timeline::before {
+    width: 10px !important;
+    margin: auto !important;
+    margin-left: -4.4px !important;
+    border-radius: 5px !important;
+    background-color: #6751b9 !important;
+}
+
+/* Timeline icon */
+.edu-icon {
+    background: transparent !important;
+    box-shadow: none !important;
+    backdrop-filter: blur(5rem);
+    border: 1px solid cyan !important;
+}
+
+/* Timeline card content (white box) — removed */
+.vertical-timeline-element-content,
+.vertical-timeline-element-content::before {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* Optional: if arrow is visible and white, make it transparent */
+.vertical-timeline-element-content-arrow {
+    border-right: 10px solid cyan !important;
+    margin-left: 10px !important;
+    /* margin-left: -10px !important; */
+}
+
+/* Education timeline content */
+.edu-timeline-content {
+    transform: translateX(60px) !important;
+}
+
+/* Custom content inside the element */
+.edu-timeline-element-content {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Media Queries */
+@media (max-width: 1025px) {
+
+    .vertical-timeline::before {
+        margin-left: -1.46px !important;
+    }
+
+    .education-container {
+        margin-top: 1rem;
+        display: flex;
+
+    }
+
+    .education-container div {
+        margin-top: 5rem;
+    }
+
+
+    .vertical-timeline {
+        margin-top: 10rem important;
+        width: 100% !important;
+    }
+
+    .education-container h5 {
+        line-height: 28rem;
+        font-size: 2em;
+    }
+
+    .vertical-timeline::before {
+        width: 6px !important;
+    }
+
+    .vertical-timeline-element-content {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 450px !important;
+        margin-left: 70px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .education-container {
+        margin-top: 2rem;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .education-container h5 {
+        line-height: 28rem;
+        text-align: center;
+    }
+
+    .education-container div {
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+
+    .vertical-timeline-element-content-arrow {
+        margin-top: 1rem !important;
+    }
+
+    .vertical-timeline::before {
+        margin-top: -5rem !important;
+        width: 4px !important;
+        margin-left: 1rem !important;
+    }
+
+    .edu-icon {
+        margin-top: 1rem !important;
+    }
+
+}
+
+
+
+@media(max-width: 525px) {
+    .education-container {
+        margin-top: -5rem;
+    }
+
+    .education-container h5 {
+        font-size: 1.5rem
+    }
+
+    .education-container div {
+        margin-left: 0.5rem;
+    }
+
+    .vertical-timeline-element-content {
+        width: 80% !important;
+        height: 70% !important;
+        margin-left: 4rem !important;
+    }
+
+    .date {
+        margin-bottom: 4rem !important;
+    }
+
+    .vertical-timeline::before {
+        height: 105rem !important;
+        margin-left: 8.56px !important;
+    }
+}
