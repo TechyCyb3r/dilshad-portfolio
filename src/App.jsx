@@ -12,7 +12,7 @@ function App() {
     <>
       <div className='w-full h-full relative'>
         <Header />
-        <div className='pt-14 md:pt-16 absolute top-0 left-0 bg-[#11071F] -z-10 w-auto'>
+        <div className='pt-14 md:pt-16 absolute bg-[#11071F] -z-10 w-[90%] md:w-100%'>
           <section id='hero'>
             <Hero />
           </section>
