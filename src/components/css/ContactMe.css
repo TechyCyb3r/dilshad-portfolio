@@ -24,3 +24,14 @@
         text-align: center;
     }
 }
+
+
+@media(max-width: 425px){
+    .contact-container{
+        margin-top: 8rem;
+        padding: 2rem;
+    }
+    .contact-container h5{
+        font-size: 1.5rem;
+    }
+}
