@@ -149,7 +149,8 @@
     .exp-icon {
         margin-top: 1rem !important;
     }
-    .date{
+
+    .date {
         margin-bottom: 2rem;
     }
 
@@ -183,6 +184,15 @@
     .vertical-timeline::before {
         margin-top: -50px !important;
         height: 100rem !important;
+        margin-left: 8.56px !important;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .vertical-timeline::before {
+        margin-top: -50px !important;
+        height: 115rem !important;
         margin-left: 8.56px !important;
     }
 }
