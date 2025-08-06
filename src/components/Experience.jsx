@@ -1,30 +1,27 @@
 import React from 'react';
-import './css/Experience.css';
+import styles from './css/Experience.module.css';
 import ExperienceCard from './ExperienceCard';
 import expData from '../utils/expData';
-
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-
 import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
   return (
-    <section className="experience-container">
+    <section className={styles['experience-container']}>
       <h5>Experience Profile</h5>
-
-      <div className="experience-content">
-        <VerticalTimeline className="vertical-timeline">
+      <div>
+        <VerticalTimeline className={styles['vertical-timeline']}>
           {expData.map((item) => (
             <VerticalTimelineElement
               key={item.id}
               date={item.duration}
-              iconClassName="exp-icon"
-              contentClassName="exp-timeline-content no-box"
+              iconClassName={styles['exp-icon']}
+              contentClassName={`${styles['exp-timeline-content']} ${styles['exp-timeline-element-content']}`}
               dateClassName="date"
-              contentArrowClassName="exp-timeline-arrow"
+              contentArrowClassName={styles['exp-timeline-arrow']}
             >
               <ExperienceCard details={item} />
             </VerticalTimelineElement>

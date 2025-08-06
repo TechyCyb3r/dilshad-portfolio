@@ -1,17 +1,17 @@
 // SkillsCard.jsx
 import React from 'react';
-import './css/SkillsCard.css';
+import styles from './css/SkillsCard.module.css'; // updated import
 
 const SkillsCard = ({ title, iconUrl, isActive, onClick }) => {
     return (
         <div
-            className={`skills-card ${isActive ? 'active' : ''}`}
+            className={`${styles['skills-card']} ${isActive ? styles.active : ''}`}
             onClick={() => onClick && onClick()}
         >
-            <div className="skills-icon ">
+            <div className={styles['skills-icon']}>
                 <img src={iconUrl} alt={title} />
             </div>
-            <span >{title}</span>
+            <span>{title}</span>
         </div>
     );
 };
