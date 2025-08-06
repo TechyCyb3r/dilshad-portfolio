@@ -185,3 +185,11 @@
         margin-left: 8.56px !important;
     }
 }
+
+@media (max-width: 320px){
+     .vertical-timeline::before {
+        margin-top: -50px !important;
+        height: 149rem !important;
+        margin-left: 8.56px !important;
+    }
+}
