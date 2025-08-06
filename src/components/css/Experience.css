@@ -186,10 +186,10 @@
     }
 }
 
-@media (max-width: 320px){
+@media (min-width: 361px){
      .vertical-timeline::before {
         margin-top: -50px !important;
-        height: 149rem !important;
+        height: 129rem !important;
         margin-left: 8.56px !important;
     }
 }
