@@ -182,7 +182,7 @@
 
     .vertical-timeline::before {
         margin-top: -50px !important;
-        height: 113rem !important;
+        height: 100rem !important;
         margin-left: 8.56px !important;
     }
 }
