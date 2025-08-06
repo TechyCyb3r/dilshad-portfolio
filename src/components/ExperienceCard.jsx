@@ -1,20 +1,16 @@
 import React from 'react'
-import './css/EducationCard.css'
+import './css/ExperienceCard.css'
 const EducationCard = ({ details }) => {
     return (
-        <div className="education-card">
+        <div className="experience-card">
             <h6 className="border-b-4 border-b-[#32275f]">{details.title}</h6>
-            <p>
-                Institute: {details.degree}
-            </p>
-            <p> 
-                {details.score}
-            </p>
-            <p>
-                {details.location}
-            </p><br />
-
-            <div className="education-duration">{details.duration}
+            <p>{details.job}</p>
+            <ul className="experience-description">
+                {details.description.map((item, index) => (
+                    <li key={index}>{item}</li>
+                ))}
+            </ul>
+            <div className="experience-duration">{details.duration}
                 {details.responsibilities && (
                     <ul>
                         {details.responsibilities.map((item, index) => (

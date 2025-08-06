@@ -1,5 +1,4 @@
-.education-card {
-    background: #130f2a;
+.experience-card {
     border-radius: 1rem;
     border: 2px solid #6751b9;
     padding: 2rem;
@@ -10,12 +9,12 @@
     box-shadow: 0 0 12px rgba(103, 81, 185, 0.1);
 }
 
-.education-card:hover {
+.experience-card:hover {
     transform: scale(1.02);
     box-shadow: 0 0 25px rgba(103, 81, 185, 0.4);
 }
 
-.education-card h6 {
+.experience-card h6 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -25,29 +24,29 @@
     color: #eaeaff;
 }
 
-.education-card p {
+.experience-card p {
     font-size: 1rem;
     color: #e0dffd;
     margin: 0.4rem 0;
 }
 
-.education-duration {
+.experience-duration {
     display: inline-block;
     font-size: 0.75rem;
     font-weight: 500;
     background: rgba(103, 81, 185, 0.2);
     border-radius: 0.4rem;
     padding: 0.4rem 0.6rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
     color: #d8d5fa;
 }
 
-.education-card ul {
+.experience-card ul {
     padding-left: 1.2rem;
     margin-top: 0.5rem;
 }
 
-.education-card ul li {
+.experience-card ul li {
     list-style: none;
     font-size: 0.9rem;
     font-weight: 400;
@@ -57,7 +56,7 @@
     padding-left: 1rem;
 }
 
-.education-card ul li::before {
+.experience-card ul li::before {
     content: "";
     width: 0.5rem;
     height: 0.5rem;
@@ -68,20 +67,19 @@
     top: 0.35rem;
 }
 
-.education-content {
+.experience-content {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-
 @media (max-width: 525px){
-    .education-card h6{
+    .experience-card h6 {
         font-size: 1.1rem;
     }
 
-    .education-duration{
+    .experience-duration {
         margin-left: -5rem;
     }
 }
