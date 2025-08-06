@@ -13,7 +13,7 @@ function App() {
       <div className='w-full h-full relative'>
         <Background />
         <Header />
-        <div className='pt-14 md:pt-16'>
+        <div className='pt-14 md:pt-16 w-auto'>
           <section id='hero'>
             <Hero />
           </section>
