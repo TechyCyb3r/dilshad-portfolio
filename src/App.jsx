@@ -19,7 +19,7 @@ function App() {
       <div className='w-full h-full relative'>
         <Header />
         <div className='pt-14 md:pt-16 absolute bg-[#11071F] -z-10 overflow-hidden w-[100%]'>
-          <section>
+          <section id='home'>
             <Hero />
           </section>
           <section id='skills'>
