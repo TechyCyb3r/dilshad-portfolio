@@ -1,4 +1,6 @@
 import './App.css'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Background from './components/Background.jsx'
@@ -6,8 +8,7 @@ import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/ContactMe.jsx'
-import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer } from 'react-toastify';
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <ToastContainer position="top-center" autoClose={3000} />
       <div className='w-full h-full relative'>
         <Header />
-        <div className='pt-14 md:pt-16 absolute bg-[#11071F] -z-10 w-[100%] overflow-hidden'>
+        <div className='pt-14 md:pt-16 absolute bg-[#11071F] -z-10 overflow-hidden w-[100%]'>
           <section>
             <Hero />
           </section>
@@ -33,6 +34,7 @@ function App() {
           <section id='contact'>
             <Contact />
           </section>
+        <Footer />
         </div>
       </div>
     </>
