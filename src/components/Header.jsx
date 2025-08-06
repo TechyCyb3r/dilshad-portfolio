@@ -5,7 +5,7 @@ import { FiX, FiMenu } from 'react-icons/fi'
 import { TypeAnimation } from 'react-type-animation'
 
 const Header = () => {
-  const Pages = ['Home', 'Skills', 'Experience','Project', 'Contact'];
+  const Pages = ['Home', 'Skills', 'Experience', 'Projects', 'Contact'];
   const menuRef = useRef(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
