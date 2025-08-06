@@ -11,9 +11,8 @@ function App() {
   return (
     <>
       <div className='w-full h-full relative'>
-        <Background />
         <Header />
-        <div className='pt-14 md:pt-16 w-auto'>
+        <div className='pt-14 md:pt-16 absolute top-0 left-0 bg-[#11071F] -z-10'>
           <section id='hero'>
             <Hero />
           </section>
