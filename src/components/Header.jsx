@@ -49,7 +49,7 @@ const Header = () => {
               }}
               key={index}
               className={`${Styles.navLink} text-md text-white`}
-              href={`${page === 'Home' ? '#hero' : `#${page.toLowerCase()}`}`}
+              href={`${page === 'Home' ? '/' : `#${page.toLowerCase()}`}`}
             >
               {page}
             </Motion.a>

@@ -1,0 +1,26 @@
+.contact-container{
+    padding: 4rem;
+    color: #fff;
+}
+.contact-container h5{
+    line-height: rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.contact-content{
+    display: flex;
+    gap: 3rem;
+}
+
+@media(max-width: 768px){
+    .contact-content{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .contact-container h5{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
