@@ -33,6 +33,7 @@
     margin-left: -4.4px !important;
     border-radius: 5px !important;
     background-color: #6751b9 !important;
+    height: 78rem !important;
 }
 
 /* Timeline icon */
@@ -182,14 +183,6 @@
     .vertical-timeline::before {
         margin-top: -50px !important;
         height: 113rem !important;
-        margin-left: 8.56px !important;
-    }
-}
-
-@media (min-width: 361px){
-     .vertical-timeline::before {
-        margin-top: -50px !important;
-        height: 129rem !important;
         margin-left: 8.56px !important;
     }
 }
