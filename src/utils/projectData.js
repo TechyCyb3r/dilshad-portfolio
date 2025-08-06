@@ -1,29 +1,21 @@
-import iNoteX from '../assets/project/inotex.png';
-import textutils from '../assets/project/textutils.png';
-import newsapp from '../assets/project/newsapp.png';
-
 const projectData = [
   {
-    name: 'iNoteX',
-    description: 'A responsive note-taking web app.',
-    tech: ['React', 'LocalStorage', 'Tailwind CSS', 'Material UI'],
-    githubLink: 'https://github.com/TechyCyb3r/iNoteX',
-    image: iNoteX,
+    id: 1,
+    title: "Laravel and Node Applications on AWS EC2",
+    points: [
+      "Set up a full LAMP stack on AWS EC2 with secure HTTPS.",
+      "Configured Let’s Encrypt SSL and automated renewal using cron.",
+      "Connected domain via Route 53 and created automated backups."
+    ],
   },
   {
-    name: 'TextUtils',
-    description: 'Text transformation utility tool with multiple string operations.',
-    tech: ['React', 'CSS', 'Bootstrap', 'Module CSS'],
-    githubLink: 'https://github.com/TechyCyb3r/TextUtils',
-    image: textutils,
-  },
-  {
-    name: 'News App',
-    description: 'Real-time news reader app using News API integration.',
-    tech: ['React', 'News API', 'Modules CSS', 'Bootstrap'],
-    githubLink: 'https://github.com/TechyCyb3r/newsApp',
-    image: newsapp,
-  },
+    id: 2,
+    title: "Email & Server Migration Projects",
+    points: [
+      "Migrated Zimbra mailboxes to a SmarterMail setup for 150+ users.",
+      "Migrated 80+ Office 365 accounts (cross-tenant manual migration).",
+      "Migrated 100+ email accounts from Zimbra to Google Workspace."
+    ],
+  }
 ];
-
 export default projectData;

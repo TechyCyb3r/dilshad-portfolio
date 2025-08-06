@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx'
 import Background from './components/Background.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
+import Projects from './components/Projects.jsx'
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </section>
           <section id='experience'>
             <Experience />
+          </section>
+          <section id='projects'>
+            <Projects />
           </section>
         </div>
       </div>
