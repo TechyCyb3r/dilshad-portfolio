@@ -106,15 +106,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     padding: 1rem;
   }
 
   .skills-container h5 {
     font-size: 1.5rem;
     text-align: center;
-    line-height: 15rem;
+    line-height: 8rem;
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   .skills-content{
