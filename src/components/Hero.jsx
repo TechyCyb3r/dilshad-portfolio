@@ -78,24 +78,18 @@ const Hero = () => {
             A self-driven Linux enthusiast with over 2 years of hands-on experience in server management, shell scripting, and system security.
             I specialize in deploying, securing, and optimizing Linux environments to ensure high availability and performance for mission-critical systems.
           </p>
-
-          <div className="max-lg:flex max-lg:justify-center">
-            <Motion.button
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.96 }}
-              transition={{
-                type: "tween",
-                ease: "easeInOut",
-                duration: 0.01
-              }}
-              className="flex items-center justify-center text-white bg-gradient-to-r from-[#a993fe] to-[#7e61e7] py-2 px-5 sm:py-[0.6rem] sm:px-[2rem] border-0 text-sm sm:text-[0.9rem] font-bold rounded-[0.2rem] cursor-pointer transition-all duration-300 ease-in-out hover:bg-none hover:bg-black hover:text-[#a993fe] hover:outline hover:outline-[1.5px] hover:outline-[#a993fe]"
-              onClick={() => window.open('/download/resume.pdf')}
-            >
-              Download Resume
-            </Motion.button>
-          </div>
-
         </Motion.div>
+
+
+        <a href="/download/resume.pdf" download>
+          <button
+            className={` mt-3 z-[10] flex items-center justify-center text-white bg-gradient-to-r from-[#a993fe] to-[#7e61e7] py-2 px-5 sm:py-[0.6rem] sm:px-[2rem] border-0 text-sm sm:text-[0.9rem] font-bold rounded-[0.2rem] cursor-pointer transition-all duration-300 ease-in-out hover:bg-none hover:bg-black hover:text-[#a993fe] hover:outline hover:outline-[1.5px] hover:outline-[#a993fe] ${Styles.downloadButton}`}
+          >
+            Download Resume
+          </button>
+        </a>
+
+
       </div>
     </section>
   )

@@ -54,13 +54,15 @@
 @media (max-width: 768px) {
 
   .skills-container {
-    /* margin-top: 2rem; */
     padding: 0.5rem;
+    height: auto
   }
 
   .skills-container h5 {
+    margin-top: 1rem;
     text-align: center;
-    line-height: 18rem;
+    line-height: 10rem;
+    margin-bottom: 2rem;
   }
 
   .skills-content {

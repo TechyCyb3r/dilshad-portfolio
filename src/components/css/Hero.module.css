@@ -107,4 +107,14 @@
         margin-top: -1rem;
         font-size: 0.9rem;
     }
+    .downloadButton{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px){
+    .downloadButton{
+        margin: auto;
+    }
 }
